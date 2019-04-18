@@ -9,7 +9,7 @@ class Notelist extends React.Component{
                     <div className="item" key={Math.random()}>
                         <i className="map marker icon"></i>
                         <div className="content">
-                            <a href="http://www.google.com" className="header">{note.title}</a>
+                            <a href="#" className="header">{note.title}</a>
                             <div className="description">{note.content}</div>
                         </div>
                     </div>
